@@ -14,8 +14,9 @@ provides free GPU services. As the training of the model requires high amount of
 The data used in this project, known as the Mendeley Data, has 3D images of MRI scan and CT scan and the fused 3D image 
 in .img and .hdr format. The MRI image has 220 slices, the CT image has 206 slices and the fused image has 220 slices. 
 The size of each slice is 256X256. Figure 1, 2 and 3 shows an example slice from each image.
-![image]{}
-
+![Figure 1](https://github.com/akshitaagarwa11a/Image-Registration-and-fusion-of-multimodal-brain-scan-images/blob/master/CT.png)
+![Figure 2](https://github.com/akshitaagarwa11a/Image-Registration-and-fusion-of-multimodal-brain-scan-images/blob/master/MRI.png)
+![Figure 3](https://github.com/akshitaagarwa11a/Image-Registration-and-fusion-of-multimodal-brain-scan-images/blob/master/README.md)
 ## Deep Neural Network(Model description)
 The model is made using Convolutional Neural Networks(CNNs). The structureof the model consists of 5 downsampling layers 
 and 4 upsampling layers. Eachdownsampling layer consists of two convolutional layers with filters of size 3X3where stride is
